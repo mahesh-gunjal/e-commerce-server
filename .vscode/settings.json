@@ -1,0 +1,21 @@
+{
+    "cSpell.words": [
+        "autorestart",
+        "lcov",
+        "linebreak",
+        "papad",
+        "parens",
+        "pkill",
+        "plusplus",
+        "prefs",
+        "Recaptcha",
+        "sendgrid",
+        "uncolorize",
+        "virtuals"
+    ],
+    "docwriter.progress.trackClasses": true,
+    "docwriter.progress.trackMethods": true,
+    "docwriter.custom.template": "{{summary}}\n{{#params}}\n@param ({{type}}) {{name}} - {{paramExplained}}\n{{/params}}\n{{#returnExplained}}\n@returns {{.}}\n{{/returnExplained}}\n{{#throws}}\n@throw {{throwExplained}}\n{{/throws}}\n\nGenerated on {{date}}",
+    "docwriter.progress.trackTypes": true,
+    "docwriter.style": "Auto-detect"
+}

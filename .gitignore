@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+package-lock.json*
+package-lock.json
+
+# Environment varibales
+.env*
+!.env.example
+
+# Code coverage
+coverage
+
+# Uplods
+uploads
