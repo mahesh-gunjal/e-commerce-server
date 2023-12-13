@@ -31,7 +31,7 @@ const itemSchema = mongoose.Schema(
 	{ timestamps: true }
 );
 
-// apply plugins on schema
+// apply plugins on schemas
 itemSchema.plugin(paginate);
 itemSchema.plugin(privates);
 itemSchema.plugin(softDelete);
